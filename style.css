@@ -1,1 +1,64 @@
-sdfdxfdxdf
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico para o body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilizando o título principal */
+h1 {
+    color: #4CAF50;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilizando o parágrafo de introdução */
+p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Estilizando a seção com a lista */
+section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando o título da seção */
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Estilizando a lista não ordenada */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+ul li:hover {
+    background-color: #4CAF50;
+    color: white;
+}
